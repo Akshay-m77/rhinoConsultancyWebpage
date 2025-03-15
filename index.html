@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RHINO CONSULTANCY - Pest Control</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef5f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #1e3a5f, #27496d);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #27496d;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            transition: 0.3s;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background: #1b98e0;
+        }
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+            padding: 30px 0;
+        }
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        #about {
+            text-align: left;
+            line-height: 1.8;
+            font-size: 18px;
+        }
+        #about h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .service-box {
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, background 0.3s;
+            color: white;
+            text-align: center;
+        }
+        .service-box:nth-child(1) { background: #ff6f61; }
+        .service-box:nth-child(2) { background: #6bcb77; }
+        .service-box:nth-child(3) { background: #ffa600; }
+        .service-box:nth-child(4) { background: #5a67d8; }
+        .service-box:hover {
+            transform: scale(1.05);
+            filter: brightness(1.2);
+        }
+        .service-box i {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 768px) {
+            .services {
+                grid-template-columns: 1fr;
+            }
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(to right, #1e3a5f, #27496d);
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        RHINO CONSULTANCY MAN POWER AND PEST CONTROL
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to <b>Rhino Consultancy Man Power and Pest Control</b>, your trusted partner in organic and eco-friendly pest management solutions. Our services ensure a <b>safe, chemical-free, and highly effective</b> approach to pest control, protecting your homes and businesses across India.</p>
+            <p>With years of experience and a team of highly trained experts, we specialize in tackling all types of pest problems using <b>non-toxic, environmentally friendly methods</b>. Based in Andaman and Nicobar, we extend our services nationwide, ensuring <b>quality, reliability, and long-lasting pest control solutions</b> for every client.</p>
+            <p>Our commitment is to keep your spaces pest-free without compromising your health or the environment. Experience the best in pest control with <b>Rhino Consultancy</b> today!</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service-box">
+                    <i class="fas fa-bug"></i>
+                    <h3>General Pest Control</h3>
+                    <p>Effective control for common household pests.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-mouse"></i>
+                    <h3>Rodent Control</h3>
+                    <p>Keep your premises free from rats and mice.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-spider"></i>
+                    <h3>Termite Control</h3>
+                    <p>Protect your property from termite damage.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>All Pest Control Services</h3>
+                    <p>Customized solutions for all pest problems.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:info@rhinopestcontrol.com">info@rhinopestcontrol.com</a></p>
+            <p>Phone: +91 XXXXX XXXXX</p>
+            <p>Address: 123 Greenway Street, Port Blair, Andaman & Nicobar, India</p>
+            <p>Location: Andaman & Nicobar, India (Available Nationwide)</p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 RHINO CONSULTANCY - All Rights Reserved
+    </footer>
+</body>
+</html>
