@@ -128,6 +128,9 @@
             text-align: justify;
         
 }
+#about p {
+    margin-top: 15px; /* Adds space after each paragraph */
+}
 
 
         /* Services */
