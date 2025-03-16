@@ -197,7 +197,7 @@
             font-size: 14px;
         }
 
-        /* Responsive */
+        /* Responsive */        
         @media (max-width: 768px) {
             header {
                 flex-direction: column;
@@ -214,4 +214,10 @@
                 flex-direction: column;
                 gap: 5px;
             }
+            #about {
+                font-size: 16px; /* Reduce text size for mobile */
+                padding: 30px; /* Adjust padding for better spacing */
+                min-height: auto; /* Remove fixed height for better responsiveness */
+            }
+
         }
